@@ -35,7 +35,7 @@ main {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: teal;
+    background-color: rgb(237, 235, 75);
 
     display: flex;
     align-items: center;
@@ -46,7 +46,7 @@ main {
 header,
 footer {
     height: 100px;
-    background-color: tomato;
+    background-color: rgb(87, 144, 194);
 
     display: flex;
     align-items: center;
