@@ -116,7 +116,7 @@ header {
     /* padding-bottom: 50px; */
     /* padding-top: 20px; */
 
-    transform: scaleX(1.15);
+    transform: scale(1.15);
 
     transition: transform 150ms ease-in;
 }
@@ -126,26 +126,26 @@ header {
     padding-right: 25px;
     padding-left: 250px;
     padding-bottom: 50px;
-    padding-top: 20px;
+    padding-top: 120px;
     transition: padding 150ms ease-in;
 
     text-align: right;
 }
-.left-side.is-visible,
+/* .left-side.is-visible,
 .right-side.is-visible {
     padding-top: 120px;
-}
+} */
 .right-side {
     flex-basis: 70%;
     padding-left: 25px;
     padding-right: 250px;
     padding-bottom: 50px;
-    padding-top: 20px;
+    padding-top: 120px;
     transition: padding 150ms ease-in;
 }
 
 .popup.is-visible {
-    transform: scaleX(1);
+    transform: scale(1);
 }
 .close-btn {
     padding: 5px;
