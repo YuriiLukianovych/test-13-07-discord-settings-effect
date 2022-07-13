@@ -117,6 +117,13 @@ footer {
     top: 30px;
     right: 100px;
     cursor: pointer;
+
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid #fff;
+    outline: none;
+    background-color: transparent;
 }
 .nav {
     display: flex;
